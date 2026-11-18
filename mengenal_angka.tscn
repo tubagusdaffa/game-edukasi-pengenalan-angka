@@ -1,0 +1,224 @@
+[gd_scene format=3 uid="uid://c1x33expvccc"]
+
+[ext_resource type="Script" uid="uid://3k43i0x8gd8t" path="res://mengenal_angka.gd" id="1_jmuav"]
+[ext_resource type="Texture2D" uid="uid://cll0eitr0vu7r" path="res://bg.jpg" id="2_6kl6b"]
+[ext_resource type="FontFile" uid="uid://rjn4pitruvkp" path="res://fonts/Fredoka-SemiBold.ttf" id="3_gg1d8"]
+[ext_resource type="Texture2D" uid="uid://bihixxga8s5yf" path="res://assets/belajar angka.png" id="4_6kl6b"]
+[ext_resource type="Texture2D" uid="uid://cubkirgltayqs" path="res://assets/tebak angka.png" id="5_d2sya"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gg1d8"]
+bg_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6kl6b"]
+bg_color = Color(0.43137255, 0.27058825, 0.12156863, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d2sya"]
+bg_color = Color(0.6509804, 0.41960785, 0.2, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uc3q1"]
+bg_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_v8ar8"]
+bg_color = Color(0.43137255, 0.27058825, 0.12156863, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_v6wao"]
+bg_color = Color(0.6509804, 0.41960785, 0.2, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_iqfym"]
+bg_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nl5pd"]
+bg_color = Color(0.43137255, 0.27058825, 0.12156863, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_p0onr"]
+bg_color = Color(0.6509804, 0.41960785, 0.2, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[node name="MengenalAngka" type="Node2D" unique_id=1428705529]
+script = ExtResource("1_jmuav")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=945731389]
+offset_top = -1.0
+offset_right = 1152.0
+offset_bottom = 647.0
+texture = ExtResource("2_6kl6b")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Label" type="Label" parent="." unique_id=106142405]
+offset_left = 332.0
+offset_top = 86.0
+offset_right = 815.0
+offset_bottom = 151.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_gg1d8")
+theme_override_font_sizes/font_size = 40
+text = "⭐ Petualangan Angka ⭐"
+
+[node name="Label3" type="Label" parent="." unique_id=1830905314]
+offset_left = 394.0
+offset_top = 86.0
+offset_right = 857.0
+offset_bottom = 151.0
+theme_override_colors/font_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+theme_override_fonts/font = ExtResource("3_gg1d8")
+theme_override_font_sizes/font_size = 40
+text = "Petualangan Angka "
+
+[node name="Buttonbelajar" type="Button" parent="." unique_id=1823813883]
+custom_minimum_size = Vector2(430, 220)
+offset_left = 88.0
+offset_top = 237.0
+offset_right = 518.0
+offset_bottom = 457.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_gg1d8")
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxFlat_gg1d8")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_6kl6b")
+theme_override_styles/hover = SubResource("StyleBoxFlat_d2sya")
+text = "                 Belajar Angka
+                  Kenali Angka 1-10"
+
+[node name="TextureRect" type="TextureRect" parent="Buttonbelajar" unique_id=2016322682]
+custom_minimum_size = Vector2(150, 150)
+layout_mode = 0
+offset_left = 9.0
+offset_top = 12.0
+offset_right = 154.0
+offset_bottom = 195.0
+texture = ExtResource("4_6kl6b")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Buttongame" type="Button" parent="." unique_id=807799274]
+custom_minimum_size = Vector2(430, 220)
+offset_left = 612.0
+offset_top = 237.0
+offset_right = 1065.0
+offset_bottom = 457.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_gg1d8")
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxFlat_uc3q1")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_v8ar8")
+theme_override_styles/hover = SubResource("StyleBoxFlat_v6wao")
+text = "                       Main Tebak Angka"
+
+[node name="TextureRect" type="TextureRect" parent="Buttongame" unique_id=242605790]
+custom_minimum_size = Vector2(150, 150)
+layout_mode = 0
+offset_left = 20.0
+offset_top = 6.0
+offset_right = 172.0
+offset_bottom = 196.0
+texture = ExtResource("5_d2sya")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Buttonkembali" type="Button" parent="." unique_id=1186244746]
+offset_left = 36.0
+offset_top = 575.0
+offset_right = 252.0
+offset_bottom = 623.0
+theme_override_fonts/font = ExtResource("3_gg1d8")
+theme_override_font_sizes/font_size = 18
+theme_override_styles/normal = SubResource("StyleBoxFlat_iqfym")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_nl5pd")
+theme_override_styles/hover = SubResource("StyleBoxFlat_p0onr")
+text = "Kembali
+"
+
+[node name="Label2" type="Label" parent="." unique_id=382842789]
+offset_left = 414.0
+offset_top = 130.0
+offset_right = 718.0
+offset_bottom = 163.0
+theme_override_colors/font_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+theme_override_fonts/font = ExtResource("3_gg1d8")
+theme_override_font_sizes/font_size = 20
+text = "Ayo pilih game yang mau dimainkan"
+
+[connection signal="pressed" from="Buttonbelajar" to="." method="_on_button_belajar_pressed"]
+[connection signal="pressed" from="Buttongame" to="." method="_on_button_game_pressed"]
+[connection signal="pressed" from="Buttonkembali" to="." method="_on_button_kembali_pressed"]

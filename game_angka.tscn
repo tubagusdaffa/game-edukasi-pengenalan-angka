@@ -1,0 +1,467 @@
+[gd_scene format=3 uid="uid://bwf0v7c863ggl"]
+
+[ext_resource type="Script" uid="uid://d11a5cs5gvvff" path="res://game_angka.gd" id="1_lbtw4"]
+[ext_resource type="Texture2D" uid="uid://cll0eitr0vu7r" path="res://bg.jpg" id="2_6ajto"]
+[ext_resource type="FontFile" uid="uid://rjn4pitruvkp" path="res://fonts/Fredoka-SemiBold.ttf" id="3_5361n"]
+[ext_resource type="Texture2D" uid="uid://dqlym8yxy2prh" path="res://assets/angka/angka10.png" id="4_iful0"]
+[ext_resource type="Texture2D" uid="uid://cnga4dy85lr1l" path="res://assets/kelinci.png" id="5_f4ajc"]
+[ext_resource type="Texture2D" uid="uid://crqamcewtvomd" path="res://assets/angka/angka5.png" id="6_uos7f"]
+[ext_resource type="Texture2D" uid="uid://b1u5orlryhe72" path="res://assets/angka/angka3.png" id="7_c76i2"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_c76i2"]
+bg_color = Color(1, 0.972549, 0.90588236, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_iv16u"]
+bg_color = Color(0.9137255, 0.78431374, 0.6039216, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f4ajc"]
+bg_color = Color(0.43137255, 0.27058825, 0.12156863, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uos7f"]
+bg_color = Color(0.95686275, 0.8392157, 0.65882355, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_iful0"]
+bg_color = Color(0.9137255, 0.78431374, 0.6039216, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q6jwr"]
+bg_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i5y4d"]
+bg_color = Color(0.43137255, 0.27058825, 0.12156863, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_738eo"]
+bg_color = Color(0.6509804, 0.41960785, 0.2, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_th0kl"]
+bg_color = Color(0.9137255, 0.78431374, 0.6039216, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_icks4"]
+bg_color = Color(0.29803923, 0.6862745, 0.3137255, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.18039216, 0.49019608, 0.19607843, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_c2n27"]
+bg_color = Color(0.9137255, 0.78431374, 0.6039216, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cuwoh"]
+bg_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w78yh"]
+bg_color = Color(0.43137255, 0.27058825, 0.12156863, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ddmo1"]
+bg_color = Color(0.6509804, 0.41960785, 0.2, 1)
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k4pxo"]
+bg_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k2gk6"]
+bg_color = Color(0.43137255, 0.27058825, 0.12156863, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kf5xx"]
+bg_color = Color(0.6509804, 0.41960785, 0.2, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[node name="GameAngka" type="Node2D" unique_id=200594705]
+script = ExtResource("1_lbtw4")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1348122845]
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("2_6ajto")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="LabelJudul" type="Label" parent="." unique_id=894239375]
+offset_left = 307.0
+offset_top = 71.0
+offset_right = 852.0
+offset_bottom = 143.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_5361n")
+theme_override_font_sizes/font_size = 40
+text = "Ayo Tebak Angka"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LabelJudul2" type="Label" parent="." unique_id=1963080206]
+offset_left = 304.0
+offset_top = 73.0
+offset_right = 849.0
+offset_bottom = 145.0
+theme_override_colors/font_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+theme_override_fonts/font = ExtResource("3_5361n")
+theme_override_font_sizes/font_size = 40
+text = "Ayo Tebak Angka"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Kelinci" type="TextureRect" parent="." unique_id=2108693530]
+offset_left = 342.0
+offset_top = 114.0
+offset_right = 489.0
+offset_bottom = 304.0
+texture = ExtResource("5_f4ajc")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="PanelInstruksi" type="PanelContainer" parent="." unique_id=1576746359]
+offset_left = 453.0
+offset_top = 182.0
+offset_right = 749.0
+offset_bottom = 223.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_c76i2")
+
+[node name="LabelInstruksi" type="Label" parent="PanelInstruksi" unique_id=1522294531]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+theme_override_fonts/font = ExtResource("3_5361n")
+theme_override_font_sizes/font_size = 26
+text = "  Pilih angka 10 ya!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Card1" type="Button" parent="." unique_id=1723193757]
+offset_left = 138.0
+offset_top = 285.0
+offset_right = 365.0
+offset_bottom = 494.0
+theme_override_font_sizes/font_size = 48
+theme_override_styles/normal = SubResource("StyleBoxFlat_iv16u")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_f4ajc")
+theme_override_styles/hover = SubResource("StyleBoxFlat_uos7f")
+
+[node name="ImgAngka" type="TextureRect" parent="Card1" unique_id=1378358644]
+custom_minimum_size = Vector2(150, 150)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.30800003
+anchor_top = -0.536
+anchor_right = 1.291
+anchor_bottom = 1.1880001
+offset_left = -31.083992
+offset_top = 104.024
+offset_right = 35.942993
+offset_bottom = -24.292023
+texture = ExtResource("4_iful0")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Card2" type="Button" parent="." unique_id=81558422]
+offset_left = 472.0
+offset_top = 282.0
+offset_right = 699.0
+offset_bottom = 491.0
+theme_override_font_sizes/font_size = 48
+theme_override_styles/normal = SubResource("StyleBoxFlat_iful0")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_f4ajc")
+theme_override_styles/hover = SubResource("StyleBoxFlat_uos7f")
+
+[node name="ImgAngka" type="TextureRect" parent="Card2" unique_id=942222763]
+custom_minimum_size = Vector2(150, 150)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.555
+anchor_top = -0.656
+anchor_right = 1.6040001
+anchor_bottom = 1.6320001
+offset_left = 6.9850006
+offset_top = 118.104004
+offset_right = -5.108032
+offset_bottom = -111.08801
+texture = ExtResource("6_uos7f")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Card3" type="Button" parent="." unique_id=1758036000]
+offset_left = 798.0
+offset_top = 282.0
+offset_right = 1025.0
+offset_bottom = 491.0
+theme_override_font_sizes/font_size = 48
+theme_override_styles/normal = SubResource("StyleBoxFlat_iful0")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_f4ajc")
+theme_override_styles/hover = SubResource("StyleBoxFlat_uos7f")
+
+[node name="ImgAngka" type="TextureRect" parent="Card3" unique_id=1958084152]
+custom_minimum_size = Vector2(150, 150)
+layout_mode = 0
+offset_left = -147.0
+offset_top = -30.0
+offset_right = 390.0
+offset_bottom = 236.0
+texture = ExtResource("7_c76i2")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="BtnKembali" type="Button" parent="." unique_id=250534105]
+custom_minimum_size = Vector2(200, 0)
+offset_left = 20.0
+offset_top = 582.0
+offset_right = 250.0
+offset_bottom = 632.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_5361n")
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_q6jwr")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_i5y4d")
+theme_override_styles/hover = SubResource("StyleBoxFlat_738eo")
+text = "Kembali"
+
+[node name="UI" type="Control" parent="." unique_id=375340708]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 110.0
+offset_bottom = 87.0
+
+[node name="ProgressBar" type="ProgressBar" parent="UI" unique_id=1384748560]
+custom_minimum_size = Vector2(40, 28)
+layout_mode = 0
+offset_left = 142.0
+offset_top = 113.0
+offset_right = 317.0
+offset_bottom = 155.0
+theme_override_fonts/font = ExtResource("3_5361n")
+theme_override_font_sizes/font_size = 20
+theme_override_styles/background = SubResource("StyleBoxFlat_th0kl")
+theme_override_styles/fill = SubResource("StyleBoxFlat_icks4")
+
+[node name="LabelSkor" type="Label" parent="UI" unique_id=1407423270]
+layout_mode = 0
+offset_left = 180.0
+offset_top = 193.0
+offset_right = 269.0
+offset_bottom = 219.0
+theme_override_colors/font_color = Color(0.3647059, 0.2509804, 0.21568628, 1)
+theme_override_fonts/font = ExtResource("3_5361n")
+theme_override_font_sizes/font_size = 21
+text = "Skor : 20"
+
+[node name="LabelSoal" type="Label" parent="UI" unique_id=1333845640]
+layout_mode = 0
+offset_left = 174.0
+offset_top = 161.0
+offset_right = 284.0
+offset_bottom = 187.0
+theme_override_colors/font_color = Color(0.3647059, 0.2509804, 0.21568628, 1)
+theme_override_fonts/font = ExtResource("3_5361n")
+theme_override_font_sizes/font_size = 21
+text = "Soal 1 / 10"
+
+[node name="PopupHasil" type="CanvasLayer" parent="." unique_id=261250043]
+
+[node name="PanelHasil" type="Panel" parent="PopupHasil" unique_id=1079910282]
+custom_minimum_size = Vector2(430, 330)
+offset_left = 314.0
+offset_top = 185.0
+offset_right = 876.0
+offset_bottom = 515.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_c2n27")
+
+[node name="Isi" type="VBoxContainer" parent="PopupHasil/PanelHasil" unique_id=892821229]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.16700001
+anchor_top = 0.215
+anchor_right = 0.87900007
+anchor_bottom = 0.81600004
+offset_left = -10.854004
+offset_top = -5.9500046
+offset_right = -10.998047
+offset_bottom = -6.050049
+alignment = 1
+
+[node name="LabelJudul" type="Label" parent="PopupHasil/PanelHasil/Isi" unique_id=1395458688]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+theme_override_fonts/font = ExtResource("3_5361n")
+theme_override_font_sizes/font_size = 30
+text = "🎉 PERMAINAN SELESAI  🎉 "
+
+[node name="LabelSkor" type="Label" parent="PopupHasil/PanelHasil/Isi" unique_id=1457518610]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+theme_override_fonts/font = ExtResource("3_5361n")
+theme_override_font_sizes/font_size = 25
+text = "Skor : 0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LabelPesan" type="Label" parent="PopupHasil/PanelHasil/Isi" unique_id=969751228]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+theme_override_fonts/font = ExtResource("3_5361n")
+theme_override_font_sizes/font_size = 25
+text = "Kamu Hebat!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BtnMainLagi" type="Button" parent="PopupHasil/PanelHasil/Isi" unique_id=492296177]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_5361n")
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxFlat_cuwoh")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_w78yh")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ddmo1")
+text = "Ayo Main Lagi"
+
+[node name="BtnMenu" type="Button" parent="PopupHasil/PanelHasil/Isi" unique_id=1636647568]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_5361n")
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxFlat_k4pxo")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_k2gk6")
+theme_override_styles/hover = SubResource("StyleBoxFlat_kf5xx")
+text = "Menu
+"
+
+[connection signal="pressed" from="Card1" to="." method="_on_Card1_pressed"]
+[connection signal="pressed" from="Card2" to="." method="_on_Card2_pressed"]
+[connection signal="pressed" from="Card3" to="." method="_on_Card3_pressed"]
+[connection signal="pressed" from="BtnKembali" to="." method="_on_BtnKembali_pressed"]

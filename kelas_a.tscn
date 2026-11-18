@@ -1,0 +1,159 @@
+[gd_scene format=3 uid="uid://b0yxn884mibp0"]
+
+[ext_resource type="Script" uid="uid://bas8bp6ruxc12" path="res://kelas_a.gd" id="1_jnyyo"]
+[ext_resource type="Texture2D" uid="uid://cll0eitr0vu7r" path="res://bg.jpg" id="2_81jkb"]
+[ext_resource type="FontFile" uid="uid://rjn4pitruvkp" path="res://fonts/Fredoka-SemiBold.ttf" id="3_bqxig"]
+[ext_resource type="Texture2D" uid="uid://cnga4dy85lr1l" path="res://assets/kelinci.png" id="4_bqxig"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bqxig"]
+bg_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_81jkb"]
+bg_color = Color(0.43137255, 0.27058825, 0.12156863, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yyya6"]
+bg_color = Color(0.6509804, 0.41960785, 0.2, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_voa61"]
+bg_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hxlgb"]
+bg_color = Color(0.43137255, 0.27058825, 0.12156863, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mo7sw"]
+bg_color = Color(0.6509804, 0.41960785, 0.2, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[node name="Kelas A" type="Node2D" unique_id=1774147868]
+script = ExtResource("1_jnyyo")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=593771739]
+offset_right = 1153.0
+offset_bottom = 648.0
+texture = ExtResource("2_81jkb")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Label" type="Label" parent="." unique_id=1830526206]
+offset_left = 386.0
+offset_top = 91.0
+offset_right = 757.0
+offset_bottom = 152.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_bqxig")
+theme_override_font_sizes/font_size = 50
+text = "⭐ KELAS A⭐ "
+
+[node name="Label3" type="Label" parent="." unique_id=584998210]
+offset_left = 452.0
+offset_top = 94.0
+offset_right = 673.0
+offset_bottom = 155.0
+theme_override_colors/font_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+theme_override_fonts/font = ExtResource("3_bqxig")
+theme_override_font_sizes/font_size = 50
+text = " KELAS A "
+
+[node name="BtnBelajar" type="Button" parent="." unique_id=2056463848]
+custom_minimum_size = Vector2(380, 180)
+offset_left = 371.0
+offset_top = 242.0
+offset_right = 772.0
+offset_bottom = 455.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_bqxig")
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxFlat_bqxig")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_81jkb")
+theme_override_styles/hover = SubResource("StyleBoxFlat_yyya6")
+text = "            Mengenal Angka
+          Ayo Mulai!"
+
+[node name="TextureRect" type="TextureRect" parent="BtnBelajar" unique_id=1072472600]
+custom_minimum_size = Vector2(130, 130)
+layout_mode = 0
+offset_left = 13.0
+offset_top = 46.0
+offset_right = 93.0
+offset_bottom = 146.0
+texture = ExtResource("4_bqxig")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="BtnBack" type="Button" parent="." unique_id=1481032311]
+offset_left = 31.0
+offset_top = 579.0
+offset_right = 238.0
+offset_bottom = 631.0
+theme_override_fonts/font = ExtResource("3_bqxig")
+theme_override_font_sizes/font_size = 18
+theme_override_styles/normal = SubResource("StyleBoxFlat_voa61")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_hxlgb")
+theme_override_styles/hover = SubResource("StyleBoxFlat_mo7sw")
+text = "Kembali"
+
+[node name="Label2" type="Label" parent="." unique_id=82340125]
+offset_left = 453.0
+offset_top = 146.0
+offset_right = 690.0
+offset_bottom = 177.0
+theme_override_colors/font_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+theme_override_fonts/font = ExtResource("3_bqxig")
+theme_override_font_sizes/font_size = 25
+text = "Ayo Belajar Bersama"
+
+[connection signal="pressed" from="BtnBelajar" to="." method="_on_btn_belajar_pressed"]
+[connection signal="pressed" from="BtnBack" to="." method="_on_btn_back_pressed"]

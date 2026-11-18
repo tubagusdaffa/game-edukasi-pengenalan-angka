@@ -1,0 +1,244 @@
+[gd_scene format=3 uid="uid://ddn1sqtvo8w23"]
+
+[ext_resource type="Script" uid="uid://b2f7e3rcodalx" path="res://pilih_kelas.gd" id="1_22u6f"]
+[ext_resource type="Texture2D" uid="uid://cll0eitr0vu7r" path="res://bg.jpg" id="2_yb7gs"]
+[ext_resource type="FontFile" uid="uid://rjn4pitruvkp" path="res://fonts/Fredoka-SemiBold.ttf" id="3_4ye6l"]
+[ext_resource type="Texture2D" uid="uid://cnga4dy85lr1l" path="res://assets/kelinci.png" id="4_vxnxn"]
+[ext_resource type="Texture2D" uid="uid://c6heaq7nqh2ch" path="res://assets/singa-removebg-preview.png" id="5_yb7gs"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4ye6l"]
+bg_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yl2aq"]
+bg_color = Color(0.43137255, 0.27058825, 0.12156863, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vxnxn"]
+bg_color = Color(0.6509804, 0.41960785, 0.2, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yb7gs"]
+bg_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1jk5n"]
+bg_color = Color(0.43137255, 0.27058825, 0.12156863, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8bjxp"]
+bg_color = Color(0.6509804, 0.41960785, 0.2, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_180og"]
+bg_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2byac"]
+bg_color = Color(0.43137255, 0.27058825, 0.12156863, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hwc71"]
+bg_color = Color(0.6509804, 0.41960785, 0.2, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[node name="PilihKelas" type="Control" unique_id=668030423]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_22u6f")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1724104221]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 649.0
+texture = ExtResource("2_yb7gs")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=326378001]
+visible = false
+layout_mode = 0
+offset_right = 1150.0
+offset_bottom = 655.0
+color = Color(0.8627451, 0.92156863, 1, 1)
+
+[node name="Label" type="Label" parent="." unique_id=1052042158]
+layout_mode = 0
+offset_left = 304.0
+offset_top = 93.0
+offset_right = 796.0
+offset_bottom = 158.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_4ye6l")
+theme_override_font_sizes/font_size = 45
+text = " ⭐ Ayo Pilih Kelas! ⭐ "
+horizontal_alignment = 1
+
+[node name="Label2" type="Label" parent="." unique_id=1623975712]
+layout_mode = 0
+offset_left = 302.0
+offset_top = 96.0
+offset_right = 794.0
+offset_bottom = 161.0
+theme_override_colors/font_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+theme_override_fonts/font = ExtResource("3_4ye6l")
+theme_override_font_sizes/font_size = 45
+text = " Ayo Pilih Kelas! "
+horizontal_alignment = 1
+
+[node name="BtnKelasA" type="Button" parent="." unique_id=391308267]
+layout_mode = 0
+offset_left = 108.0
+offset_top = 235.0
+offset_right = 443.0
+offset_bottom = 412.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_4ye6l")
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxFlat_4ye6l")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_yl2aq")
+theme_override_styles/hover = SubResource("StyleBoxFlat_vxnxn")
+text = "           Kelas A
+              (Usia 4–5 Tahun)
+"
+
+[node name="TextureRect" type="TextureRect" parent="BtnKelasA" unique_id=1091468513]
+custom_minimum_size = Vector2(140, 140)
+layout_mode = 0
+offset_left = 2.0
+offset_top = 19.0
+offset_right = 142.0
+offset_bottom = 159.0
+texture = ExtResource("4_vxnxn")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="BtnKelasB" type="Button" parent="." unique_id=1535866656]
+layout_mode = 0
+offset_left = 690.0
+offset_top = 233.0
+offset_right = 1023.0
+offset_bottom = 415.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_4ye6l")
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxFlat_yb7gs")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_1jk5n")
+theme_override_styles/hover = SubResource("StyleBoxFlat_8bjxp")
+text = "                 Kelas B
+                   (Usia 5–6 Tahun)
+"
+
+[node name="TextureRect" type="TextureRect" parent="BtnKelasB" unique_id=1052035093]
+custom_minimum_size = Vector2(140, 140)
+layout_mode = 0
+offset_top = 19.0
+offset_right = 140.0
+offset_bottom = 159.0
+texture = ExtResource("5_yb7gs")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="BtnBack" type="Button" parent="." unique_id=1472617458]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 573.0
+offset_right = 248.0
+offset_bottom = 626.0
+theme_override_fonts/font = ExtResource("3_4ye6l")
+theme_override_font_sizes/font_size = 18
+theme_override_styles/normal = SubResource("StyleBoxFlat_180og")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_2byac")
+theme_override_styles/hover = SubResource("StyleBoxFlat_hwc71")
+text = "Kembali"
+
+[node name="Label3" type="Label" parent="." unique_id=224392204]
+layout_mode = 0
+offset_left = 453.0
+offset_top = 147.0
+offset_right = 663.0
+offset_bottom = 180.0
+theme_override_colors/font_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+theme_override_fonts/font = ExtResource("3_4ye6l")
+theme_override_font_sizes/font_size = 25
+text = "Pilih sesuai usiamu"
+
+[connection signal="pressed" from="BtnKelasA" to="." method="_on_btn_kelas_a_pressed"]
+[connection signal="pressed" from="BtnKelasB" to="." method="_on_BtnKelasB_pressed"]
+[connection signal="pressed" from="BtnBack" to="." method="_on_BtnBack_pressed"]

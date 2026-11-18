@@ -1,0 +1,772 @@
+[gd_scene format=3 uid="uid://82mw374y1dum"]
+
+[ext_resource type="Script" uid="uid://bcb35qqp65b41" path="res://game_berhitung_dasar.gd" id="1_5exs7"]
+[ext_resource type="Texture2D" uid="uid://cll0eitr0vu7r" path="res://bg.jpg" id="2_wgisf"]
+[ext_resource type="FontFile" uid="uid://rjn4pitruvkp" path="res://fonts/Fredoka-SemiBold.ttf" id="3_ec8s1"]
+[ext_resource type="Texture2D" uid="uid://c6heaq7nqh2ch" path="res://assets/singa-removebg-preview.png" id="4_wgisf"]
+[ext_resource type="Texture2D" uid="uid://bwsxi7fa1pe5b" path="res://assets/ayam.png" id="5_vui0r"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_l7yag"]
+bg_color = Color(1, 0.972549, 0.90588236, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qri28"]
+bg_color = Color(0.9137255, 0.78431374, 0.6039216, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kek7r"]
+bg_color = Color(0.43137255, 0.27058825, 0.12156863, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dgbc0"]
+bg_color = Color(0.95686275, 0.8392157, 0.65882355, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7ceb2"]
+bg_color = Color(0.9137255, 0.78431374, 0.6039216, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b5esq"]
+bg_color = Color(0.43137255, 0.27058825, 0.12156863, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qgxwu"]
+bg_color = Color(0.95686275, 0.8392157, 0.65882355, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vsr60"]
+bg_color = Color(0.9137255, 0.78431374, 0.6039216, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_h0dyp"]
+bg_color = Color(0.43137255, 0.27058825, 0.12156863, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3g18x"]
+bg_color = Color(0.95686275, 0.8392157, 0.65882355, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j5cil"]
+bg_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_erioc"]
+bg_color = Color(0.43137255, 0.27058825, 0.12156863, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vtssg"]
+bg_color = Color(0.6509804, 0.41960785, 0.2, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vui0r"]
+bg_color = Color(0.9137255, 0.78431374, 0.6039216, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rj0da"]
+bg_color = Color(0.29803923, 0.6862745, 0.3137255, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.18039216, 0.49019608, 0.19607843, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i5s1c"]
+bg_color = Color(0.9137255, 0.78431374, 0.6039216, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jpd8b"]
+bg_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w607t"]
+bg_color = Color(0.43137255, 0.27058825, 0.12156863, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_p2ajn"]
+bg_color = Color(0.6509804, 0.41960785, 0.2, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mdlru"]
+bg_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nuwbm"]
+bg_color = Color(0.43137255, 0.27058825, 0.12156863, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ls3po"]
+bg_color = Color(0.6509804, 0.41960785, 0.2, 1)
+border_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[node name="GameBerhitungDasar" type="Control" unique_id=1925329953]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1149.0
+offset_bottom = 642.0
+script = ExtResource("1_5exs7")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=587346940]
+layout_mode = 0
+offset_top = 1.0
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("2_wgisf")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="LabelJudul" type="Label" parent="." unique_id=2099369472]
+layout_mode = 0
+offset_left = 437.0
+offset_top = 81.0
+offset_right = 780.0
+offset_bottom = 149.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_ec8s1")
+theme_override_font_sizes/font_size = 40
+text = "Ayo Berhitung!"
+
+[node name="LabelJudul2" type="Label" parent="." unique_id=2096426228]
+layout_mode = 0
+offset_left = 432.0
+offset_top = 83.0
+offset_right = 775.0
+offset_bottom = 151.0
+theme_override_colors/font_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+theme_override_fonts/font = ExtResource("3_ec8s1")
+theme_override_font_sizes/font_size = 40
+text = "Ayo Berhitung!"
+
+[node name="Singa" type="TextureRect" parent="." unique_id=782091083]
+layout_mode = 0
+offset_left = 308.0
+offset_top = 105.0
+offset_right = 417.0
+offset_bottom = 256.0
+texture = ExtResource("4_wgisf")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="PanelInstruksi" type="PanelContainer" parent="." unique_id=330822392]
+layout_mode = 0
+offset_left = 410.0
+offset_top = 166.0
+offset_right = 888.0
+offset_bottom = 206.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_l7yag")
+
+[node name="LabelInstruksi" type="Label" parent="PanelInstruksi" unique_id=1401618434]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.54509807, 0.3529412, 0.16862746, 1)
+theme_override_fonts/font = ExtResource("3_ec8s1")
+theme_override_font_sizes/font_size = 24
+text = "Bantu aku menghitung anak ayam ya!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Card1" type="Button" parent="." unique_id=179474564]
+layout_mode = 0
+offset_left = 138.0
+offset_top = 337.0
+offset_right = 365.0
+offset_bottom = 477.0
+theme_override_font_sizes/font_size = 48
+theme_override_styles/normal = SubResource("StyleBoxFlat_qri28")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_kek7r")
+theme_override_styles/hover = SubResource("StyleBoxFlat_dgbc0")
+
+[node name="GridJawaban" type="GridContainer" parent="Card1" unique_id=639287292]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+columns = 4
+
+[node name="Hewan1" type="TextureRect" parent="Card1/GridJawaban" unique_id=1050976367]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan2" type="TextureRect" parent="Card1/GridJawaban" unique_id=649069717]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan3" type="TextureRect" parent="Card1/GridJawaban" unique_id=119941721]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan4" type="TextureRect" parent="Card1/GridJawaban" unique_id=462470408]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan5" type="TextureRect" parent="Card1/GridJawaban" unique_id=1976164991]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan6" type="TextureRect" parent="Card1/GridJawaban" unique_id=1443814131]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan7" type="TextureRect" parent="Card1/GridJawaban" unique_id=1744400109]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan8" type="TextureRect" parent="Card1/GridJawaban" unique_id=657297708]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Card2" type="Button" parent="." unique_id=1306681859]
+layout_mode = 0
+offset_left = 472.0
+offset_top = 337.0
+offset_right = 712.0
+offset_bottom = 471.0
+theme_override_font_sizes/font_size = 48
+theme_override_styles/normal = SubResource("StyleBoxFlat_7ceb2")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_b5esq")
+theme_override_styles/hover = SubResource("StyleBoxFlat_qgxwu")
+
+[node name="GridJawaban" type="GridContainer" parent="Card2" unique_id=1077787223]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+columns = 4
+
+[node name="Hewan1" type="TextureRect" parent="Card2/GridJawaban" unique_id=1919452448]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan2" type="TextureRect" parent="Card2/GridJawaban" unique_id=435186263]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan3" type="TextureRect" parent="Card2/GridJawaban" unique_id=966379130]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan4" type="TextureRect" parent="Card2/GridJawaban" unique_id=1963352613]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan5" type="TextureRect" parent="Card2/GridJawaban" unique_id=498433079]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan6" type="TextureRect" parent="Card2/GridJawaban" unique_id=1918204772]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan7" type="TextureRect" parent="Card2/GridJawaban" unique_id=1673375353]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan8" type="TextureRect" parent="Card2/GridJawaban" unique_id=748085377]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Card3" type="Button" parent="." unique_id=233998483]
+layout_mode = 0
+offset_left = 804.0
+offset_top = 337.0
+offset_right = 1028.0
+offset_bottom = 468.0
+theme_override_font_sizes/font_size = 48
+theme_override_styles/normal = SubResource("StyleBoxFlat_vsr60")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_h0dyp")
+theme_override_styles/hover = SubResource("StyleBoxFlat_3g18x")
+
+[node name="GridJawaban" type="GridContainer" parent="Card3" unique_id=1764000894]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+columns = 4
+
+[node name="Hewan1" type="TextureRect" parent="Card3/GridJawaban" unique_id=596174406]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan2" type="TextureRect" parent="Card3/GridJawaban" unique_id=1312094871]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan3" type="TextureRect" parent="Card3/GridJawaban" unique_id=1528273653]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan4" type="TextureRect" parent="Card3/GridJawaban" unique_id=277643617]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan5" type="TextureRect" parent="Card3/GridJawaban" unique_id=131840721]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan6" type="TextureRect" parent="Card3/GridJawaban" unique_id=1495925641]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan7" type="TextureRect" parent="Card3/GridJawaban" unique_id=1331922166]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan8" type="TextureRect" parent="Card3/GridJawaban" unique_id=1091804471]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="BtnKembali" type="Button" parent="." unique_id=757691618]
+layout_mode = 0
+offset_left = 21.0
+offset_top = 573.0
+offset_right = 254.0
+offset_bottom = 630.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_ec8s1")
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_j5cil")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_erioc")
+theme_override_styles/hover = SubResource("StyleBoxFlat_vtssg")
+text = "Kembali"
+
+[node name="HewanKiri" type="HBoxContainer" parent="." unique_id=1779560158]
+layout_mode = 0
+offset_left = 196.0
+offset_top = 253.0
+offset_right = 562.0
+offset_bottom = 323.0
+alignment = 1
+
+[node name="Hewan1" type="TextureRect" parent="HewanKiri" unique_id=1674033525]
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan2" type="TextureRect" parent="HewanKiri" unique_id=1723933321]
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan3" type="TextureRect" parent="HewanKiri" unique_id=1612134319]
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan4" type="TextureRect" parent="HewanKiri" unique_id=552079015]
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan5" type="TextureRect" parent="HewanKiri" unique_id=1612143069]
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="HewanKanan" type="HBoxContainer" parent="." unique_id=1712410577]
+layout_mode = 0
+offset_left = 591.0
+offset_top = 253.0
+offset_right = 957.0
+offset_bottom = 323.0
+alignment = 1
+
+[node name="Hewan1" type="TextureRect" parent="HewanKanan" unique_id=1344519874]
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan2" type="TextureRect" parent="HewanKanan" unique_id=2056810857]
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan3" type="TextureRect" parent="HewanKanan" unique_id=1426245600]
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan4" type="TextureRect" parent="HewanKanan" unique_id=2080681231]
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Hewan5" type="TextureRect" parent="HewanKanan" unique_id=526694343]
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+texture = ExtResource("5_vui0r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="LabelPlus" type="Label" parent="." unique_id=1981668548]
+layout_mode = 0
+offset_left = 565.0
+offset_top = 248.0
+offset_right = 593.0
+offset_bottom = 315.0
+theme_override_fonts/font = ExtResource("3_ec8s1")
+theme_override_font_sizes/font_size = 55
+text = "+"
+
+[node name="UI" type="Control" parent="." unique_id=559927447]
+anchors_preset = 0
+offset_right = 110.0
+offset_bottom = 87.0
+
+[node name="ProgressBar" type="ProgressBar" parent="UI" unique_id=573010475]
+custom_minimum_size = Vector2(40, 28)
+layout_mode = 0
+offset_left = 142.0
+offset_top = 113.0
+offset_right = 317.0
+offset_bottom = 155.0
+theme_override_fonts/font = ExtResource("3_ec8s1")
+theme_override_font_sizes/font_size = 20
+theme_override_styles/background = SubResource("StyleBoxFlat_vui0r")
+theme_override_styles/fill = SubResource("StyleBoxFlat_rj0da")
+
+[node name="LabelSkor" type="Label" parent="UI" unique_id=108649614]
+layout_mode = 0
+offset_left = 180.0
+offset_top = 193.0
+offset_right = 269.0
+offset_bottom = 219.0
+theme_override_colors/font_color = Color(0.3647059, 0.2509804, 0.21568628, 1)
+theme_override_fonts/font = ExtResource("3_ec8s1")
+theme_override_font_sizes/font_size = 21
+text = "Skor : 20"
+
+[node name="LabelSoal" type="Label" parent="UI" unique_id=1994280492]
+layout_mode = 0
+offset_left = 174.0
+offset_top = 161.0
+offset_right = 284.0
+offset_bottom = 187.0
+theme_override_colors/font_color = Color(0.3647059, 0.2509804, 0.21568628, 1)
+theme_override_fonts/font = ExtResource("3_ec8s1")
+theme_override_font_sizes/font_size = 21
+text = "Soal 1 / 10"
+
+[node name="PopupHasil" type="CanvasLayer" parent="." unique_id=1447990232]
+
+[node name="PanelHasil" type="Panel" parent="PopupHasil" unique_id=607742017]
+custom_minimum_size = Vector2(430, 330)
+offset_left = 331.0
+offset_top = 162.0
+offset_right = 902.0
+offset_bottom = 501.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_i5s1c")
+
+[node name="Isi" type="VBoxContainer" parent="PopupHasil/PanelHasil" unique_id=139474639]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.16700001
+anchor_top = 0.215
+anchor_right = 0.87900007
+anchor_bottom = 0.81600004
+offset_left = -10.854004
+offset_top = -5.9500046
+offset_right = -10.998047
+offset_bottom = -6.050049
+alignment = 1
+
+[node name="LabelJudul" type="Label" parent="PopupHasil/PanelHasil/Isi" unique_id=285106055]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+theme_override_fonts/font = ExtResource("3_ec8s1")
+theme_override_font_sizes/font_size = 30
+text = "🎉 PERMAINAN SELESAI  🎉 "
+
+[node name="LabelSkor" type="Label" parent="PopupHasil/PanelHasil/Isi" unique_id=562139567]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+theme_override_fonts/font = ExtResource("3_ec8s1")
+theme_override_font_sizes/font_size = 25
+text = "Skor : 0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LabelPesan" type="Label" parent="PopupHasil/PanelHasil/Isi" unique_id=2009085938]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.36078432, 0.21960784, 0.09411765, 1)
+theme_override_fonts/font = ExtResource("3_ec8s1")
+theme_override_font_sizes/font_size = 25
+text = "Kamu Hebat!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BtnMainLagi" type="Button" parent="PopupHasil/PanelHasil/Isi" unique_id=1293567682]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_ec8s1")
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxFlat_jpd8b")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_w607t")
+theme_override_styles/hover = SubResource("StyleBoxFlat_p2ajn")
+text = "Ayo Main Lagi"
+
+[node name="BtnMenu" type="Button" parent="PopupHasil/PanelHasil/Isi" unique_id=97957887]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_ec8s1")
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxFlat_mdlru")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_nuwbm")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ls3po")
+text = "Menu
+"
+
+[connection signal="pressed" from="Card1" to="." method="_on_Card1_pressed"]
+[connection signal="pressed" from="Card2" to="." method="_on_Card2_pressed"]
+[connection signal="pressed" from="Card3" to="." method="_on_Card3_pressed"]
+[connection signal="pressed" from="BtnKembali" to="." method="_on_BtnKembali_pressed"]
